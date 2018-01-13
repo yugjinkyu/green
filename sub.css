@@ -1,0 +1,99 @@
+/* 서브페이지 스타일 */
+.content{
+    width:1200px;
+    margin: 0 auto;
+}
+.content .olList li{
+    list-style-type:decimal;
+    list-style-position: inside;
+    margin:5px 0;
+}
+.content p{
+    margin:10px 0;
+}
+.content .cellCont{
+    display: table;
+    width:100%;
+}
+.content .cellCont span{
+    display: table-cell;
+}
+.content .cellCont span:nth-child(1){
+    width:7%;
+    color:#333;
+    font-weight: 800;
+}
+.content .title{
+    font-size:1.5em;
+    font-weight:bold;
+    color:#333;
+    border-bottom:solid 1px #999;
+    padding-bottom:10px;
+    padding-left:10px;
+    margin:20px 0;
+}
+.content>.tit{
+    font-size:1.2em;
+    margin:20px 0 10px;
+    color:#333;
+}
+.content>.subTit{
+    margin:10px;
+}
+.content .curriTop{
+  background:#efefef;
+  padding:10px;  
+}
+
+.content .curriTop .img{
+    width:30%;
+    float:left;
+    border:solid 1px #ccc;
+    padding:5px;
+    background:#fff;
+}
+.content .curriTop .img img{
+    width:100%;
+}
+.content .curriTop .info{
+    width:65%;
+    float:right;
+    line-height: 1.8em;
+}
+.content .curriTop .info li:last-child{
+    line-height: 1.2em;
+    font-size:0.95em;
+}
+.content .curriTop .info li:last-child .tit{
+    line-height:1.8em;
+}
+.content .curriTop .info .tit{
+    color:#333;
+    font-weight:800;
+    display: inline-block;
+    width:60px;
+}
+.table{
+    width:100%;
+}
+.table td, .table th{
+    border:solid 1px #ccc;
+    padding:5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table thead th{
+    background:#efefef;
+}
+.table .textLeft{
+    text-align: left;
+}
+
+/* .a, .b, .c{
+    display: table-cell;
+    width:100px;
+    height:100px;
+    vertical-align: middle;
+    text-align: center;
+    border:solid 1px #f00;
+} */
